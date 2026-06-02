@@ -11,7 +11,7 @@ void printPyramidElementInfo(int level, std::string type, int parentValue, int c
 void printPyramid(int* arr, int size) {
 	
 	//print base array
-	std::cout << "Èñõîäíûé ìàññèâ: ";
+	std::cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
 	for (int i = 0; i < size; ++i) {
 		std::cout << arr[i];
 		if (i != size - 1)
@@ -25,7 +25,7 @@ void printPyramid(int* arr, int size) {
 	int level{}, parentValue{};
 	std::string type{"root"};
 	
-	std::cout << "Ïèðàìèäà:\n";
+	std::cout << "ÐŸÐ¸Ñ€Ð°Ð¼Ð¸Ð´Ð°:\n";
 	for (int i = 0; i < size; ++i) {
 		if (i == 0) {
 			std::cout << level << " " << type << " " << arr[0] << "\n"; // root
@@ -49,7 +49,7 @@ void printPyramid(int* arr, int size) {
 
 }
 //1 left(1) 3
-//1 - óðîâåíü, left/right - ñòîðîíà, (1) - ýòî ðîäèòåëü, 3 - çíà÷åíèå ýëåìåíòà
+//1 - ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ, left/right - ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð°, (1) - ÑÑ‚Ð¾ Ñ€Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒ, 3 - Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°
 
 int main() {
 	SetConsoleOutputCP(1251);
