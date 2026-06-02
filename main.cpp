@@ -57,10 +57,13 @@ int main() {
 	int array[6]{ 1, 3, 6, 5, 9, 8 };
 	int array2[8]{ 94, 67, 18, 44, 55, 12, 6, 42 };
 	int array3[10]{ 16, 11, 9, 10, 5, 6, 8, 1, 2, 4 };
+	
 	printPyramid(array,6);
 	std::cout << "\n\n";
+	
 	printPyramid(array2, 8);
 	std::cout << "\n\n";
+	
 	printPyramid(array3, 10);
 	return 0;
 }
